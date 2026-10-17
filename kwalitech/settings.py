@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-6x-%&subrfw0^1_12-f6+9qrx22#rmfs_fj#z5t10m9!5x)d7t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'unfold',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
